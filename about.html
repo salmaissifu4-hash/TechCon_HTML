@@ -1,57 +1,72 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About TechCon 2024</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <header>
-      <h1>About TechCon 2024</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="schedule.html">Schedule</a>
-        <a href="register.html">Register</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+        <h1>About TechCon 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <article>
-        <h2>History</h2>
-        <p>TechCon was first held in 2005 with a modest gathering of 200 tech enthusiasts. Over the years, it has grown into one of the most prestigious technology conferences in the world.</p>
-        <img src="images/history1.jpg" alt="TechCon 2005 attendees at the first conference">
-        <p>With each passing year, TechCon has evolved to include keynote speakers, workshops, and networking opportunities that bring together innovators from around the globe.</p>
-        <img src="images/history2.jpg" alt="TechCon 2015 venue with modern technology setup">
-      </article>
+        <article id="history">
+            <h2>Conference History</h2>
+            <img src="images/techcon-first-event.jpg" alt="First TechCon Event in 2010" />
+            <p>
+                TechCon began in 2010 as a small gathering of tech enthusiasts and has since grown into 
+                a premier international technology conference. Over the past 14 years, we've brought 
+                together innovators, thought leaders, and industry pioneers to share groundbreaking ideas.
+            </p>
+        </article>
 
-      <article>
-        <h2>Mission</h2>
-        <p>The mission of TechCon is to inspire innovation, foster collaboration, and accelerate the adoption of emerging technologies.</p>
-        <img src="images/mission.jpg" alt="Team of developers collaborating on a project">
-      </article>
+        <article id="mission">
+            <h2>Our Mission</h2>
+            <img src="images/mission-icon.png" alt="TechCon Mission Icon" />
+            <p>
+                Our mission is to foster innovation, facilitate knowledge exchange, and inspire 
+                technological advancement. We aim to create a platform where the brightest minds 
+                in technology can collaborate, learn, and shape the future of our digital world.
+            </p>
+        </article>
 
-      <article>
-        <h2>Notable Past Speakers</h2>
-        <section>
-          <img src="images/speaker1.jpg" alt="Elon Musk, CEO of Tesla and SpaceX">
-          <h3>Elon Musk</h3>
-          <p>CEO of Tesla and SpaceX, known for his visionary approach to technology and innovation.</p>
-        </section>
-        <section>
-          <img src="images/speaker2.jpg" alt="Satya Nadella, CEO of Microsoft">
-          <h3>Satya Nadella</h3>
-          <p>CEO of Microsoft, leading the company's transformation into a cloud-first organization.</p>
-        </section>
-        <section>
-          <img src="images/speaker3.jpg" alt="Sheryl Sandberg, COO of Meta">
-          <h3>Sheryl Sandberg</h3>
-          <p>COO of Meta, focusing on social impact and digital transformation.</p>
-        </section>
-      </article>
+        <article id="past-speakers">
+            <h2>Notable Past Speakers</h2>
+            <div class="speaker">
+                <img src="images/elon-musk.jpg" alt="Elon Musk" />
+                <h3>Elon Musk</h3>
+                <p>CEO of Tesla and SpaceX, discussing future of space technology and sustainable innovation</p>
+            </div>
+            <div class="speaker">
+                <img src="images/sundar-pichai.jpg" alt="Sundar Pichai" />
+                <h3>Sundar Pichai</h3>
+                <p>CEO of Google and Alphabet, sharing insights on AI and global technological trends</p>
+            </div>
+            <div class="speaker">
+                <img src="images/satya-nadella.jpg" alt="Satya Nadella" />
+                <h3>Satya Nadella</h3>
+                <p>CEO of Microsoft, presenting on cloud computing and digital transformation</p>
+            </div>
+        </article>
     </main>
 
     <footer>
-      <p>&copy; 2024 TechCon. All rights reserved.</p>
+        <p>&copy; 2024 TechCon Conference. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#" class="twitter">Twitter</a>
+            <a href="#" class="linkedin">LinkedIn</a>
+            <a href="#" class="facebook">Facebook</a>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
